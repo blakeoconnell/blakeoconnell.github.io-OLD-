@@ -1,0 +1,79 @@
+h1	{
+	padding-top: 25px;
+}
+
+body {
+	width: 65%;
+	margin: auto;
+	background-image: url('../images/polka-dots.png');
+}
+
+.about {
+	background-image: url('../images/dust_scratches.png');
+	outline: 1px solid black;
+	padding: 10px;
+}
+
+.portfolio {
+	background-image: url('../images/school.png');
+	outline: 1px solid black;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.contact {
+	background-image: url('../images/squared_metal.png');
+	outline: 1px solid black;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+}
+
+.right {
+    padding: 20px;
+    border-radius: 300px;
+}
+
+.scaled {
+	height: 90%;
+	width: 90%;
+}
+
+/* Style all font awesome icons */
+.fa {
+    padding: 10px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+    opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-github {
+	background: black;
+	color: white;
+}
+
+.fa-linkedin {
+	background: white;
+}
